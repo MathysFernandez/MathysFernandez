@@ -1,4 +1,4 @@
-## Salut, moi c'est Fernandez Mathys 👋
+## Salut, moi c'est Mathys Fernandez 👋
 > Étudiant en informatique à la faculté des sciences et technologies de La Rochelle
 
 <!-- Touche visuelle
