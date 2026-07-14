@@ -6,6 +6,10 @@ on:
   
   # Permet de lancer l'action manuellement si besoin
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   refresh-readme:
     runs-on: ubuntu-latest
