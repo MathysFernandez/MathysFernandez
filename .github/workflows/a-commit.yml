@@ -1,8 +1,9 @@
-name: Mises à jour quotidiennes du README
+name: Mises à jour du README
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # Se déclenche toutes les 4 heures
+    - cron: '0 */4 * * *'
   
   # Permet de lancer l'action manuellement si besoin
   workflow_dispatch:
@@ -14,10 +15,33 @@ jobs:
   refresh-readme:
     runs-on: ubuntu-latest
     steps:
+      - name: Loterie d'exécution (Décision aléatoire)
+        id: random_check
+        run: |
+
+          # Génère un nombre aléatoire (0 ou 1)
+          # 50% de chances que la variable proceed soit 'true'
+          if [ $((RANDOM % 2)) -eq 1 ]; then
+
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            echo "Loterie gagnée : le README va être mis à jour !"
+
+          else
+
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "Loterie perdue : pas de mise à jour cette fois-ci."
+
+          fi
+
       - name: Récupérer le code du dépôt
+
+        # S'exécute SI la loterie est gagnée OU SI le workflow est lancé manuellement
+        if: steps.random_check.outputs.proceed == 'true' || github.event_name == 'workflow_dispatch'
+
         uses: actions/checkout@v4
 
       - name: Modifier le README
+        if: steps.random_check.outputs.proceed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           NEW_DATE="*Dernière mise à jour le : $(date +'%Y-%m-%d %H:%M:%S') UTC*"
           
@@ -28,6 +52,7 @@ jobs:
           fi
 
       - name: Commit et Push des modifications
+        if: steps.random_check.outputs.proceed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config --global user.name "MathysFernandez"
           git config --global user.email "mathys.fernandez5572@gmail.com"
