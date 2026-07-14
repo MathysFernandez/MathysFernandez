@@ -18,7 +18,7 @@
 
 ## 🤝 Mon engagement :
 - **Bénévolat - Mentorat L1**: Accompagnement pédagogique et méthodologique des nouveaux étudiants en informatique.
-- **Bénévolat - Mentorat Enfnat**: Engagé activement auprès de l'AFEV.
+- **Bénévolat - Mentorat Enfant**: Engagé activement auprès de l'AFEV.
 <!-- - **Ambassadeur Team Étudiante**: Accueil, orientation et partage de l'expérience universitaire.
 -->
 <!-- - **Tutorat L1**: Tuteur à l'université de La Rochelle.
