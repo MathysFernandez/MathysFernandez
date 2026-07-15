@@ -13,21 +13,20 @@
 - **Rust** : Mastering ownership and borrowing concepts.
 - **Java** : Advanced algorithms (Linked lists, Binary Search Trees, recursive traversals).
 
-## 🚀 Mes projets de recherche & futurs :
-- Conception architecturale d'un **générateur procédural de terrain multi-threadé**, avec un focus sur la gestion de chunks et l'optimisation extrême des performances.
+## 🚀 Research & Future Projects :
+- Architectural design of a multi-threaded procedural terrain generator, with a focus on chunk management and extreme performance optimization.
 
-## 🤝 Mon engagement :
-- **Bénévolat - Mentorat L1**: Accompagnement pédagogique et méthodologique des nouveaux étudiants en informatique.
-- **Bénévolat - Mentorat Enfant**: Engagé activement auprès de l'AFEV.
+## 🤝 Community Involvement :
+- **Volunteer - L1 Mentoring**: Academic and methodological support for first-year computer science students
+- **Volunteer - Youth Mentoring**: Actively engaged with AFEV.
 <!-- - **Ambassadeur Team Étudiante**: Accueil, orientation et partage de l'expérience universitaire.
 -->
 <!-- - **Tutorat L1**: Tuteur à l'université de La Rochelle.
 -->
 
 ## ⚡ Hobbies :
-- Joueur régulier de chess.com
-- Musculation
-
+- Regular player on chess.com
+- Weightlifting
 --- 
 
 <!--
