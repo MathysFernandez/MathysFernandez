@@ -1,17 +1,17 @@
-## Salut, moi c'est Mathys Fernandez 👋
-> Étudiant en informatique à la faculté des sciences et technologies de La Rochelle
+## Hi, I'm Mathys Fernandez 👋
+> Computer Science student at the Faculty of Sciences and Technologies, La Rochelle
 
 <!-- Touche visuelle
 -->
 
-## Je travaille actuellement sur: 🔭
-- StellarHash: Générateur procédural déterministe de systèmes stellaires en Rust et Bevy, basé sur le hachage spatial.
+## Currently working on: 🔭
+- StellarHash: deterministic procedural star system generator built with Rust and Bevy, based on spatial hashing.
 
-## 🌱 J'apprends et je perfectionne :
+## 🌱 Learning & Refining :
 
-- **C** : Utilisation avancée des pointeurs génériques et gestion des processus/threads en environnement Linux (Ubuntu).
-- **Rust** : Étude des concepts d'ownership/borrowing.
-- **Java** : Algorithmique avancée (Listes chaînées, Arbres binaires de recherche, Parcours récursifs).
+- **C** : Advanced use of generic pointers and process/thread management in a Linux (Ubuntu) environment.
+- **Rust** : Mastering ownership and borrowing concepts.
+- **Java** : Advanced algorithms (Linked lists, Binary Search Trees, recursive traversals).
 
 ## 🚀 Mes projets de recherche & futurs :
 - Conception architecturale d'un **générateur procédural de terrain multi-threadé**, avec un focus sur la gestion de chunks et l'optimisation extrême des performances.
