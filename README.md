@@ -4,7 +4,7 @@
 <!-- Touche visuelle
 -->
 
-## Currently working on: 🔭
+## 🔭 Currently working on : 
 - StellarHash: deterministic procedural star system generator built with Rust and Bevy, based on spatial hashing.
 
 ## 🌱 Learning & Refining :
