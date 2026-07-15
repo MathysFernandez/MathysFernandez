@@ -3,7 +3,7 @@ name: Mises à jour du README
 on:
   schedule:
     # Se déclenche toutes les 4 heures
-    - cron: '0 */4 * * *'
+    - cron: '12 */4 * * *'
   
   # Permet de lancer l'action manuellement si besoin
   workflow_dispatch:
@@ -45,8 +45,8 @@ jobs:
         run: |
           NEW_DATE="*Dernière mise à jour le : $(date +'%Y-%m-%d %H:%M:%S') UTC*"
           
-          if grep -q "\*Dernière mise à jour le :" README.md; then
-            sed -i "s|\*Dernière mise à jour le :.*|$NEW_DATE|" README.md
+          if grep -q "\*Last updated:" README.md; then
+            sed -i "s|\*Last updated:.*|$NEW_DATE|" README.md
           else
             echo -e "\n$NEW_DATE" >> README.md
           fi
@@ -58,6 +58,6 @@ jobs:
           git config --global user.email "mathys.fernandez5572@gmail.com"
           
           git add README.md
-          git commit -m "Mise à jour du README" || echo "modification du README"
+          git commit -m "README UPDATE" || echo "README UPDATE"
           git pull --rebase
           git push
