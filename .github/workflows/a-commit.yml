@@ -43,7 +43,7 @@ jobs:
       - name: Modifier le README
         if: steps.random_check.outputs.proceed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          NEW_DATE="*Dernière mise à jour le : $(date +'%Y-%m-%d %H:%M:%S') UTC*"
+          NEW_DATE="*Last updated: $(date +'%Y-%m-%d %H:%M:%S') UTC*"
           
           if grep -q "\*Last updated:" README.md; then
             sed -i "s|\*Last updated:.*|$NEW_DATE|" README.md
