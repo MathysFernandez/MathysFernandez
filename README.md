@@ -1,5 +1,8 @@
 ## Hi, I'm Mathys Fernandez 👋
+
 > Computer Science student at the Faculty of Sciences and Technologies, La Rochelle
+
+[<img src="https://raw.githubusercontent.com/yumiaura/myCat/refs/heads/main/docs/cat.gif" width="164" alt="cat.gif"/>](https://github.com/MathysFernandez)
 
 <!-- Touche visuelle
 -->
