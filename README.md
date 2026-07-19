@@ -2,7 +2,7 @@
 
 > Computer Science student at the Faculty of Sciences and Technologies, La Rochelle
 
-[<img src="https://raw.githubusercontent.com/yumiaura/myCat/refs/heads/main/docs/cat.gif" width="164" alt="cat.gif"/>](https://github.com/MathysFernandez)
+[<img src="https://github.com/user-attachments/assets/f9ffc9d2-1b9f-4b89-a16f-bc7e49335a91" width="164" alt="cat.gif"/>](https://github.com/MathysFernandez)
 
 
 <!-- Touche visuelle
