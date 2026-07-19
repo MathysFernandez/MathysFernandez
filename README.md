@@ -30,7 +30,7 @@
 
 ## ⚡ Hobbies :
 - Regular player on chess.com
-- Weightlifting
+- Strength training
 --- 
 
 <!--
